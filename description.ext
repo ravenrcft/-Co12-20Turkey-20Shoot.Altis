@@ -1,0 +1,25 @@
+class CfgRespawnInventory {
+	class SOC1 {vehicle = "rhsusf_socom_marsoc_teamleader";};
+	class SOC2 {vehicle = "rhsusf_socom_marsoc_teamchief";};
+	class SOC3 {vehicle = "rhsusf_socom_marsoc_elementleader";};
+	class SOC4 {vehicle = "rhsusf_socom_marsoc_cso";};
+	class SOC5 {vehicle = "rhsusf_socom_marsoc_cso_breacher";};
+	class SOC6 {vehicle = "rhsusf_socom_marsoc_cso_mechanic";};
+	class SOC7 {vehicle = "rhsusf_socom_marsoc_sarc";};
+};
+
+enableTeamSwitch = 0;
+
+onLoadMission = "[Co12] Turkey Shoot";
+onloadMissionTime = 1;
+onLoadIntro = "Crom laughs at your four winds. He laughs from his mountain.";
+onLoadIntroTime = 1;
+
+respawn = "BASE";
+respawnButton = 1;
+respawnDelay = 20;
+respawnOnStart = 0;
+respawnTemplates[] = {"Wave", "MenuPosition", "MenuInventory"};
+respawnVehicleDelay = 45;
+
+reviveMode = 0;
